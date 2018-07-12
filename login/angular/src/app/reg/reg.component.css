@@ -1,0 +1,98 @@
+body{
+    background-color: aquamarine;
+    /* margin-top: -40px; */
+
+}
+
+   @media only screen and (max-width:620px) { */
+    /* For mobile phones: */
+      .tbldv, .tbldvinnr, .tbl_inpt, .regtbl,  .regtbl{
+      width:100%; margin:0px;
+     }
+  }  
+
+.tbldv{
+    align-items: center;    
+    overflow-x:auto;
+    /* margin-top: -50px; */
+    position: relative;
+    height: 568px;
+    background-color: rgb(196, 235, 222);
+}
+.tbldvinnr{
+    align-self: center;
+    overflow-x:auto;
+    position: relative;
+    top: 100px;
+    left: 22.5%; 
+     width: 55%;
+    height: 350px;
+    border:1px solid greenyellow;  
+    border-radius: 10px;
+    box-shadow: 0px 30px 40px  black ;
+
+}
+.tbl_inpt{    
+    overflow-x:auto;
+    background-color: rgba(245, 246, 248, 0);
+    font-size: 15px;
+    /* width: 350px; */
+    height: 20px;
+    border:1px;
+    /* width: auto; */
+    padding-left: 20px;
+    padding-bottom: -20px;
+}
+th{
+    background-color: rgb(229, 245, 210)
+}
+td{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.regtbl{
+    border-collapse: collapse;
+    margin-top: 50px;
+    /* position: relative; */
+    /* top: 50px; */
+    width: 75%;
+    height: 250px;
+    /* border:1px solid greenyellow;   */
+    border-radius: 10px;
+    /* box-shadow: 0px 30px 50px  black ; */
+}
+.inpbtn{
+    text-align: center;
+
+}
+.b_btn{
+    width:20px; 
+    cursor: pointer;
+    border-radius: 50; 
+    margin:20px 20px -30px 20px; 
+    float: left;
+}
+.b_btn:hover{
+    width:30px; 
+    cursor: pointer;
+    border-radius: 50; 
+    margin:13px 15px -30px 15px; 
+    float: left;
+    box-shadow: 2px 2px black 2px;
+}
+/* input{
+    border: 1px solid rgb(97, 235, 97);
+    border-radius: 3px;
+}
+input:hover{
+    background-color: rgb(17, 223, 17);
+    border: 1px solid green;
+    border-radius: 3px;
+} */
+/* tr:nth-child(odd){
+    background-color:lightblue; 
+}
+tr:nth-child(even){
+    background-color:rgb(180, 230, 173);  */
+/* }s */

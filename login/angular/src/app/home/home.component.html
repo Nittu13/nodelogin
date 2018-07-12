@@ -1,0 +1,35 @@
+<div style="text-align: center; font-size: 40px; color: blue">
+  Means programme with JWT Token !
+ </div>
+<div *ngIf="!auth.loggedIn()" style="height: 550px;">
+<div class="main" >
+  <div class="inner" align="center">
+    <div class="sub1">
+      <button class="r_btn" routerLink="/reg">
+        Register
+      </button>
+    </div>
+    <div class="sub2">
+      <button class="l_btn" routerLink="/login">
+        Login
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+<div *ngIf="!auth.loggedIn()">
+  <ul>
+    <li>
+    It is a simple login application with angular and nodejs.
+    </li>
+    <li>
+      In this application i am using jwt for athentication.
+      <br> bycript for incypting the password
+      </li>
+  </ul>
+
+</div>
+
+<div *ngIf="auth.loggedIn()" style="height: 550px;">
+
+</div>

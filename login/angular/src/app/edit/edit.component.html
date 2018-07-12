@@ -1,0 +1,197 @@
+<div class="main_b">
+
+
+
+  <!-- div container for image  -->
+
+
+
+  <div class="img_detail">
+    <div class="header">
+      {{title_1}}
+      <br> {{pname | uppercase}}
+    </div>
+    <form (submit)="onEditimg()" action="#">
+      <img class="u_img" name="userImage" src="../../assets/user1.jpeg" alt=" {{pname }}image">
+      <br>
+      <span class="Uc_img">
+        <input type="file" value="Select photo" style="padding-left:15px; ">
+        <br>
+        <br>
+        <!-- <input type="submit" value="save"> -->
+        <button type="submit">Save</button>
+      </span>
+    </form>
+  </div>
+
+
+
+  <!-- personal detail starts from here  -->
+  <div class="p_detail">
+    <div class="header">
+      {{title_2}}
+    </div>
+    <form (submit)="onEditpd()">
+      <label for="name" class="name">
+        Name:-
+      </label>
+      <!-- <br> -->
+      <input class="inpt" name="name" [(ngModel)]="name" type="text" placeholder="Enter Your Name here">
+      <br>
+      <br>
+      <label for="fname" class="fname">
+        Father's Name:-
+      </label>
+      <!-- <br> -->
+      <input class="inpt" name="fname" [(ngModel)]="fname" type="text" placeholder="Enter Your Father's Name here">
+      <br>
+      <br>
+      <!-- <label for="F_name" class="F_name">
+      Father's Name:-
+    </label>
+    <br>
+    <input class="inpt" name="F_name" [(ngModel)]="F_name" type="text" placeholder="Enter Your Father's Name here">
+    <br>
+    <br> -->
+      <!-- <input type="submit" value="Save " > -->
+
+      <label for="mono" class="mono">
+        Mobile No.:-
+      </label>
+      <!-- <br> -->
+      <input class="inpt" name="mono" [(ngModel)]="mono" type="text" placeholder="Enter Your Mobile No.">
+      <br>
+      <br>
+      <label for="email" class="email_c">
+        Email Id:-
+      </label>
+      <!-- <br> -->
+      <input class="inpt" name="email" [(ngModel)]="email" type="email" placeholder="Enter Your Email Here">
+      <br>
+      <br>
+      <label for="addr" class="addr">
+        Address :-
+      </label>
+      <!-- <br> -->
+      <textarea name="addr" [(ngModel)]="addr" style="width: 265px;margin-left: -22px; height: 60px; padding-top: -50px;"></textarea>
+      <br>
+      <br>
+      <!-- <div class="headerbtn"> -->
+      <!-- <input type="submit" value="Save " > -->
+      <button type="submit">Save</button>
+      <!-- </div> -->
+    </form>
+  </div>
+  <!-- security detail starts from her -->
+
+
+
+
+
+  <div class="S_detail">
+    <div class="header">
+      {{title_3}}
+    </div>
+    <div style="text-align:center">
+      <form (submit)="onEditcpd()">
+        <label for="pwd" class="pwd">
+          Current password :-
+        </label>
+        <!-- <br> -->
+        <input class="inpt" name="password" [(ngModel)]="currentpassword" type="password" placeholder="Enter Current Password">
+        <br>
+        <br>
+        <label for="c_pwd" class="cpwd">
+          New Password :-
+        </label>
+        <!-- <br> -->
+        <input class="inpt" id="npwd" name="newpassword" [(ngModel)]="newpassword" type="password" placeholder="Enter New password">
+        <img src="../../assets/eye.png" class="eyeimg" alt="password" title="show-password" onclick="npwd.type='text' " onmouseout="npwd. type='password'">
+        <br>
+        <br>
+        <label for="conf_pwd" class="confpwd">
+          Confirm New password:-
+        </label>
+        <!-- <br> -->
+        <input class="inpt" name="connewpassword" [(ngModel)]="confirmpassword" type="password" placeholder="Confirm New Password">
+        <br>
+        <br>
+        <input type="submit" value="Change Password" style="margin-left:45px;">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- 
+<div class="PP_detail">
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="tbldv">
+    <div class="tbldvinnr" align="center">
+      <form (submit)="onSubmit()">
+        <table class="regtbl" border="0" align="center">
+          <tr>
+            <th colspan="2">
+              Registration Detail
+            </th>
+          </tr>
+          <tr>
+            <td>
+              Name:-
+            </td>
+            <td>
+              <input class="inpt" class="tbl_inpt" name="name" [(ngModel)]="name" type="text" placeholder="Enter Your Name here" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Username:-
+            </td>
+            <td>
+              <input class="inpt" class="tbl_inpt" name="username" [(ngModel)]="username" type="text" placeholder="Enter Your Username here" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Email id:-
+            </td>
+            <td>
+              <input class="inpt" class="tbl_inpt" name="email" [(ngModel)]="email" type="text" placeholder="Enter Your Email id here" required>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Password:-
+            </td>
+            <td>
+              <input class="inpt" class="tbl_inpt" name="password" [(ngModel)]="password" type="password" placeholder="Enter Your Password here" required>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <input class="inpt" type="submit" value="Submit">
+              <input class="inpt" type="reset" value="Reset">
+            </th>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div> -->

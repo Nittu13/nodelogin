@@ -1,0 +1,69 @@
+.main{
+    background-color: rgb(219, 239, 241);
+    height: auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.for_header{
+    background-color: rgb(245, 239, 239);
+    height: auto;
+    /* border-bottom: 1px solid red;   */
+}
+.header{
+    width:auto;
+    border-bottom: 1px solid black;
+    
+}
+.header_2{
+    width:auto;
+    background-color: rgb(218, 215, 213);
+    border-bottom: 1px solid black;
+}
+
+.for_img{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(234, 245, 241);
+    height: auto;
+    border-bottom: 1px solid black;
+
+}
+.for_detail{
+    padding: 20px;
+    background-color: rgb(234, 245, 241);
+    height: auto;
+    /* border-right: 1px solid red; */
+    border-bottom: 1px solid black;
+}
+.for_detail_1{
+    padding: 20px;
+    background-color: rgb(234, 245, 241);
+    height: auto;
+    /* border-top: 1px solid red; */
+    border-bottom: 1px solid black;
+}
+.header{
+    padding: 15px;
+    text-align: center;
+
+}
+.header_2{
+    padding: 8px;
+    font-weight: bolder;
+    font-size:19px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.editDv{ 
+    /* position: relative; 
+    top: 10px;
+    right: 15px;
+    /* float: right; */
+    margin: 20px;
+} 
+.editbtn_div{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: -15px;
+
+}

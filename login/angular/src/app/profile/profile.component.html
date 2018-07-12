@@ -1,0 +1,105 @@
+<div class="main">
+    <div class="for_header">
+        <div class="header">
+            <h2>
+                User detail
+            </h2>
+        </div>
+        <div class="header_2">
+            {{name | uppercase}}
+        </div>
+    </div>
+    <div class="for_img">
+        <img class="image" src="./../../assets/user1.jpeg" alt="user image">
+        <!-- <button routerLink="/edit" (click)="editbtn()" class="editDv">
+            Edit
+        </button> -->
+    </div>
+    <!-- second div start from here -->
+    <!-- presnol detail -->
+    <div class="for_detail">
+
+        <table align="center">
+            <tr>
+                <th colspan="2">
+                    Candidate detail
+                </th>
+            </tr> <br> 
+            <tr>
+                <td>
+                    Name:-
+                </td>
+                <td>
+                    {{name}}
+                </td>
+            </tr> <br> 
+            <tr>
+                <td>
+                    Father's Name:-
+                </td>
+                <td>
+                    {{fname}}
+                </td>
+            </tr> <br> 
+            <tr>
+                <td>
+                    Username:-
+                </td>
+                <td>
+                    {{username}}
+                </td>
+            </tr> <br> 
+            <tr>
+                <td>
+                    E-mail Id:-
+                </td>
+                <td>
+                    {{email}}
+                </td>
+            </tr> <br> 
+        </table>
+    </div>
+
+    <!-- second div start from here -->
+    <!-- presnol detail -->
+
+    <div class="for_detail_1">
+        <table align="center">
+            <tr>
+                <th colspan="2">
+                    Contact Detail
+                </th>
+            </tr> <br> 
+            <tr>
+                <td>
+                    Mobile No.:-
+                </td>
+                <td>
+                    {{mono}}
+                </td>
+            </tr> <br> 
+            <tr>
+                <td>
+                    E-mail Id:-
+                </td>
+                <td>
+                    {{email}}
+                </td>
+            </tr> <br> 
+            <tr>
+                <td>
+                    Address:-
+                </td>
+                <td style="width: 200px;">
+                    {{addr}}
+                </td>
+            </tr> <br> 
+        </table>
+    </div>
+    <div class="editbtn_div">
+        <button routerLink="/edit" class="editDv">
+            Edit
+        </button>
+    </div>
+
+</div>

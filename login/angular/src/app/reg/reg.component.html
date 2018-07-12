@@ -1,0 +1,55 @@
+<div class="tbldv">
+  <div class="tbldvinnr" align="center">
+    <div>
+        <img class="b_btn" routerLink="/" src="../../assets/x.jpg" title="BACK" alt="back" >
+    </div>
+    <form (submit)="onSubmit()" action="http://localhost:3000/goto/reg">
+      <table class="regtbl" border="0" align="center">
+        <tr>
+          <th colspan="2">
+            Registration Detail
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Name:-
+          </td>
+          <td>
+            <input class="tbl_inpt" name="name" [(ngModel)]="name" type="text" placeholder="Enter Your Name here" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Username:-
+          </td>
+          <td>
+            <input class="tbl_inpt" name="username" [(ngModel)]="username" type="text" placeholder="Enter Your Username here" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Email id:-
+          </td>
+          <td>
+            <input class="tbl_inpt" name="email" [(ngModel)]="email" type="text" placeholder="Enter Your Email id here" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Password:-
+          </td>
+          <td>
+            <input class="tbl_inpt" name="password" [(ngModel)]="password" type="password" placeholder="Enter Your Password here" required>
+          </td>
+        </tr>
+        <tr>
+          <td class="inpbtn" colspan="2">
+            <input type="submit" value="Submit"/> 
+              
+            <input type="reset" value="Reset"/>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>

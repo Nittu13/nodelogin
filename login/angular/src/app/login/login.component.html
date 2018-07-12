@@ -1,0 +1,37 @@
+<div class="tbldv">
+  <div class="tbldvinnr" align="center" style="overflow-x:auto;">
+      <div>
+          <img class="b_btn" routerLink="/" src="../../assets/x.jpg" title="BACK" alt="back" >
+        </div>
+    <form (submit)="onlogin()">
+      <table class="regtbl" border="0" align="center">
+        <tr>
+          <th colspan="2">
+            Login
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Username:-
+          </td>
+          <td>
+            <input class="tbl_inpt" name="username" [(ngModel)]="username" type="text" placeholder="Enter Your Username here">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Password:-
+          </td>
+          <td>
+            <input class="tbl_inpt" name="password" [(ngModel)]="password" type="password" placeholder="Enter Your Password here">
+          </td>
+        </tr>
+        <tr>
+          <td class="inpbtn" colspan="2">
+            <input type="submit" value="Login"  >
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>

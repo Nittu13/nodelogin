@@ -1,0 +1,114 @@
+.header{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(2, 87, 87);
+    background-color: rgb(228, 253, 203);
+    height: auto;
+    width:auto;
+    margin: -20px -20px 20px -20px;
+    padding: 8px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.headerbtn{
+    text-align: center;
+    margin: 20px -20px -20px -20px;
+    padding: 8px;
+    color: rgb(2, 87, 87);
+    background-color: rgb(228, 253, 203);
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+ /* .Uc_img{
+     margin-top:15px ;
+    position: relative;
+    left: 60px;
+}  */
+
+.img_detail{
+    text-align: center;
+    margin-bottom:20px; 
+    /* border-bottom: 1px solid black;      */
+    border-top: 1px solid black;
+    padding: 20px;
+}
+.p_detail{
+    margin-bottom:20px; 
+    /* border-bottom: 1px solid black;      */
+    /* border-top: 1px solid black; */
+    padding: 20px;
+    text-align: center;
+}
+.S_detail{
+    margin-bottom:20px; 
+    /* border-bottom: 1px solid black;      */
+    /* border-top: 1px solid black; */
+    padding: 20px;
+    text-align: center;
+}
+.eyeimg{
+    width:15px;
+    cursor: pointer;
+}
+/* .S_inner{
+   text-align:right; 
+} */
+.C_detail{
+    /* margin-bottom:20px;  */
+    /* border-bottom: 1px solid black;      */
+    /* border-top: 1px solid black; */
+    padding: 20px;
+    text-align: center;
+}
+.inpt{
+    width: 250px;
+    padding-left: 15px;
+}
+
+/* /\/\/\/\/\/\ <=>styles for input-tag <=>/\/\/\//\/\ */
+
+.fname{
+    /* padding-right:95px; */
+    padding-right: 80px;
+    padding-left: -10px;
+    margin-left: -3px;
+}
+.name{
+    /* padding-right:95px; */
+    padding-right: 132px;
+    margin-left: -6px;
+    padding-left: 3px;
+}
+.uname{
+    padding-right: 103px;
+    margin-left: -6px;
+    padding-left: 3px;
+}
+.pwd{
+    padding-right:50px;
+}
+.cpwd{
+    padding-right:67px;
+    padding-left: 17px;
+}
+.confpwd{
+    padding-right:15px;
+}
+.mono{
+    padding-left: 0px;
+    margin-left: -5px;
+    padding-right: 95px;
+    /* padding-right:25px; */
+}
+.email_c{
+    /* padding-right:43px; */
+    padding-right: 112px;
+    margin-left: -3px;
+}
+.addr{
+    /* padding-right:66px; */
+    padding-right: 134px;
+    margin-left: 0px;
+}

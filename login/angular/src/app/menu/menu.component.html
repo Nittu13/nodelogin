@@ -1,0 +1,51 @@
+<div class="menuhd">
+  <div class="menuimg">
+    <b style="font-size: 30px;color: red; margin-left: 15px;">
+      Neutrinos
+    </b>
+    <br>
+    <span style="margin-left:15px">
+      <span>{{title }}</span> <span style="color: red;">{{ title2 }}</span> <span>{{title3}}</span>
+    </span>
+  </div>
+  <span>
+    <span class="menul">
+      <a routerLink="/">
+        HOME
+      </a>
+    </span>
+    <span *ngIf="!auth.loggedIn()" class="menulr">
+      <a routerLink="/cnt">
+        CONTACT US
+      </a>
+    </span>
+    <span *ngIf="auth.loggedIn()" class="menulrlo">
+      <a (click)="onlogoutC()" href="login">
+        <img class="lgoimg" src="../../assets/logout.png" alt="logout">
+      </a>
+    </span>
+    <span *ngIf="!auth.loggedIn()" class="menulr">
+      <a routerLink="/reg">
+        REGISTRATION
+      </a>
+    </span>
+    <span *ngIf="!auth.loggedIn()" class="menulr">
+      <a routerLink="/login">
+        LOGIN
+      </a>
+    </span>
+    <span *ngIf="auth.loggedIn()" class="menulr">
+      <a routerLink="/profile">
+        PROFILE
+      </a>
+    </span>
+    <span *ngIf="auth.loggedIn()" class="menulr">
+      <a routerLink="/dsbd">
+        DASHBOARD
+      </a>
+    </span>
+  </span>
+</div>
+
+
+<!-- *ngIf="auth.loggedIn()" -->
